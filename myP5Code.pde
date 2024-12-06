@@ -1,13 +1,13 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background (150, 182, 197);
 }
 
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(238, 224, 201);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
@@ -16,15 +16,25 @@ void draw(){
   rect(0, 300, 400, 100);  
 
   // The sun
-  ellipse(80, 64, 100, 100);  
-
+  fill(252, 199, 55);
+  line(124,39,160,7);
+  line(86,113,88,166);
+  line(40,101,4,140);
+  line(33,33,6,12);
+  line(126,93,174,140);
+  line(132,62,201,39);
+  line(84,6,79,15);
+  ellipse(80, 64, 100, 100);
+  
+  
   // The snowman
+  fill()
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
-  
+  }
 
-}
+
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
